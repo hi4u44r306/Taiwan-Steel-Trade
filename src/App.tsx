@@ -32,7 +32,7 @@ function App() {
   return( 
     <>
       <Navigation/>
-      <Container className='mt-4' style={{height:"100%"}}>
+      <Container style={{height:"100%"}}>
         <div className="w-100">
         <Carousel activeIndex={index} onSelect={handleSelect} controls={false} fade>
           <Carousel.Item interval={2000}>

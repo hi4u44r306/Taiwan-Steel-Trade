@@ -24,7 +24,7 @@
   border: solid black !important;
   border-radius: 10px !important;
   font-weight: 800 !important;
-  padding: 20px;
+  padding: 10px;
   font-size: 15px !important;
   width: 100% !important;
   overflow: hidden !important;
@@ -84,9 +84,11 @@
   }
   .homecontact {
     border-left: none;
+    width: 80vw;
   }
   .homespan {
     border-bottom: 3px solid black;
+    width: 80vw;
   }
   .contact {
     font-size: 15px;
