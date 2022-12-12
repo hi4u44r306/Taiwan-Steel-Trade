@@ -13,11 +13,13 @@
   flex-direction: column;
   height: 10%;
   width: 100vw;
-  font-size: 20px;
   font-family: "Signika Negative", sans-serif;
 }
+.copyrightspan {
+  font-size: 15px;
+}
 .design {
-  font-size: 10px;
+  font-size: 5px;
 }
 
 @media (max-width: 768px) {

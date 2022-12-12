@@ -1,3 +1,6 @@
+:root {
+  --fontsize: 12px;
+}
 .default {
   display: flex;
   justify-content: center;
@@ -10,7 +13,7 @@
   margin: 15px;
   border: solid black !important;
   border-radius: 10px !important;
-  font-size: 15px !important;
+  font-size: var(--fontsize) !important;
   overflow: hidden !important;
 }
 .home {
@@ -25,17 +28,17 @@
   border-radius: 10px !important;
   font-weight: 800 !important;
   padding: 10px;
-  font-size: 15px !important;
+  font-size: var(--fontsize) !important;
   width: 100% !important;
   overflow: hidden !important;
 }
 .homespan {
-  font-size: 15px;
+  font-size: var(--fontsize);
   width: 60vw;
   margin: 5px;
 }
 .homecontact {
-  font-size: 15px;
+  font-size: var(--fontsize);
   width: 40vw;
   padding: 10px;
   border-left: 3px solid black;
@@ -59,7 +62,7 @@
   border-radius: 10px !important;
   font-weight: 800 !important;
   padding: 20px;
-  font-size: 15px;
+  font-size: var(--fontsize);
 }
 .contactbox {
   display: flex;
@@ -70,14 +73,14 @@
 @media (max-width: 768px) {
   .default {
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
   }
   .default > img {
     width: 60%;
     height: 60%;
   }
   .default > div {
-    font-size: 15px;
+    font-size: var(--fontsize);
   }
   .home {
     flex-direction: column;
@@ -91,6 +94,6 @@
     width: 80vw;
   }
   .contact {
-    font-size: 15px;
+    font-size: var(--fontsize);
   }
 }

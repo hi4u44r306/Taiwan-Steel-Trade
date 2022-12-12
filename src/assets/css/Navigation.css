@@ -112,13 +112,14 @@
 .navlink {
   color: black !important;
   font-family: "Nunito", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 15px;
 }
 .nav-link {
   display: flex;
   align-items: center;
   padding: 10px;
+  font-weight: 800;
   font-size: 15px !important;
 }
 .dropdown-menu {

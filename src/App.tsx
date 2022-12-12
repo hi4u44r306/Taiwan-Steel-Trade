@@ -90,10 +90,11 @@ function App() {
         </Routes>  
       </Container>
         <div className='copyright'>
-          <span>
+          <span className='copyrightspan'>
             K Glory Industrial Corporation Limited All Rights Reserved
           </span>
-          <span className='design'>Web Design By Victor
+          <span className='design'>
+            Web Design By Victor
           </span>
         </div>
     </>
